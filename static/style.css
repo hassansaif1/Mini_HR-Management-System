@@ -1,0 +1,196 @@
+/* ======================================================
+   ✨ Modern Gradient UI ✨
+   Sidebar + Buttons + Clean Layout
+   ====================================================== */
+
+/* Base */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #009688, #006064);
+    color: #fff;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 230px;
+    height: 100vh;
+    background: linear-gradient(180deg, #263238, #1a2329);
+    padding: 25px 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: #fff;
+    box-shadow: 3px 0 12px rgba(0,0,0,0.4);
+}
+
+.sidebar h2 {
+    font-size: 22px;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+}
+
+.sidebar-btn {
+    display: block;
+    background: linear-gradient(90deg, #4CAF50, #2E7D32);
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+    
+}
+
+.sidebar-btn:hover {
+    background: linear-gradient(90deg, #66BB6A, #388E3C);
+}
+
+
+.bottom-btn {
+    display: block;
+    background: linear-gradient(90deg, #4CAF50, #2E7D32);
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-top:550px;
+    margin-right: 140px;
+}
+
+.bottom-btn:hover {
+    background: linear-gradient(90deg, #66BB6A, #388E3C);
+    
+}
+
+
+
+/* Bottom Bar Wrapper */
+
+/* Main Content */
+.main-content {
+    margin-left: 230px;
+    padding: 40px;
+}
+
+/* Top Bar */
+.top-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0px; /* Increased margin to bring button down */
+}
+
+.leave-btn {
+    background: linear-gradient(90deg, #ff6f00, #e65100);
+    padding: 12px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+    text-decoration: none;
+}
+a.leave-btn{
+    text-decoration: none;
+}
+
+.leave-btn:hover {
+    background: linear-gradient(90deg, #ffa000, #fb8c00);
+    text-decoration: none;
+
+}
+
+
+
+
+/* Heading Styles */
+.main-content h1 {
+    margin-left: 30px; /* Moves welcome card to the right */
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+
+.main-content p {
+    margin-left: 30px;
+    opacity: 0.9;
+}
+
+/* ===== EMPLOYEES TABLE STYLING ===== */
+
+
+
+.table-container {
+    margin-left: 300px;
+    margin-right: 120px;
+    background: rgba(255,255,255,0.12);
+    padding: 8px;
+    border-radius: 12px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.30);
+    
+}
+
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff;
+    font-size: 15px;
+}
+
+.styled-table thead tr {
+    background: linear-gradient(90deg, #1565c0, #0d47a1);
+    text-align: left;
+}
+
+.styled-table th, .styled-table td {
+    padding: 14px 10px;
+}
+
+.styled-table tbody tr {
+    transition: 0.3s;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+
+.styled-table tbody tr:hover {
+    background: rgba(255,255,255,0.18);
+}
+
+/* Status Badges */
+.badge {
+    padding: 6px 14px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.badge.pending {
+    background: #ffb300;
+    color: #1e1e1e;
+}
+
+.badge.approved {
+    background-color: green;
+    color: white;
+}
+
+.badge.rejected {
+    background-color: red;
+    color: white;
+}
+
+.no-data {
+    text-align: center;
+    font-weight: bold;
+    color: #eee;
+    background: rgba(0,0,0,0.2);
+}
+
+/* bottom bar */
